@@ -6,13 +6,8 @@ function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<StudentForm />} />
-        
-
-        <Route
-          path="/:referralCode"
-          element={<StudentForm />}
-        />
+        <Route path="/student-form" element={<StudentForm />} />
+        <Route path="/student-form/:referralCode" element={<StudentForm />} />
       </Routes>
     </BrowserRouter>
   );
