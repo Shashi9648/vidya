@@ -8,8 +8,8 @@ function App() {
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<SharePage />} />
-        {/* <Route path="/student-form" element={<StudentForm />} />
-        <Route path="/student-form/:referralCode" element={<StudentForm />} /> */}
+        <Route path="/student-form" element={<StudentForm />} />
+        <Route path="/student-form/:referralCode" element={<StudentForm />} />
       </Routes>
     </BrowserRouter>
   );
