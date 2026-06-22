@@ -193,13 +193,41 @@ button:hover {
 }
 
 @media (max-width: 768px) {
-  .step-map {
-    flex-direction: row;
-    align-items: flex-start;
+  .student-page {
+    padding: 15px;
   }
 
-  .step-item {
-    margin-bottom: 0;
+  .student-form {
+    padding: 18px;
+  }
+
+  .row {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+  }
+
+  .field {
+    flex: 1;
+    min-width: 0;
+  }
+
+  label {
+    min-height: 38px;
+    align-items: flex-end;
+    font-size: 12px;
+    line-height: 1.2;
+  }
+
+  .label-icon {
+    margin-top: 1px;
+    font-size: 13px;
+  }
+
+  input,
+  select {
+    padding: 10px;
+    font-size: 12px;
   }
 
   .step-circle {
